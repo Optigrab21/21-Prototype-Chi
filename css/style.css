@@ -52,9 +52,23 @@
     clear: both;
   }
   
+  .heroContent {
+      padding: 10px;
+      background-color: aqua;
+      display:flex;
+      justify-content: left;
+  }
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column {
       width: 100%;
     }
+  }
+
+  /*FOOTER SECTION STYLE*/
+  .footerRight {
+    position: fixed;
+    width:50px;
+    height:50px;
+    align-items: center;
   }
